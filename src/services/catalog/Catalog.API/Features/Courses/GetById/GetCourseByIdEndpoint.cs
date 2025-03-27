@@ -27,7 +27,7 @@ public static class GetCourseByIdEndpoint
 {
     public static RouteGroupBuilder GetCourseByIdGroupItemEndpoint(this RouteGroupBuilder group) {
         group.MapGet("/{id:guid}", async (IMediator mediator, Guid id) =>(
-            await mediator.Send(new GetCourseByIdQuery(id))).ToGenericResult()).WithName("GetByIdCourse");
+            await mediator.Send(new GetCourseByIdQuery(id))).ToGenericResult()).MapToApiVersion(1,0).WithName("GetByIdCourse");
 
         return group;
     }
