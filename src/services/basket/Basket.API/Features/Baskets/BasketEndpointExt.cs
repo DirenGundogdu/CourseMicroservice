@@ -1,7 +1,9 @@
 using Asp.Versioning.Builder;
 using Basket.API.Features.Baskets.AddBasketItem;
+using Basket.API.Features.Baskets.ApplyDiscountCoupon;
 using Basket.API.Features.Baskets.DeleteBasketItem;
 using Basket.API.Features.Baskets.GetBasket;
+using Basket.API.Features.Baskets.RemoveDiscountCoupon;
 
 namespace Basket.API.Features.Baskets;
 
@@ -12,6 +14,8 @@ public static class BasketEndpointExt
             .WithApiVersionSet(apiVersionSet)
             .AddBasketItemGroupItemEndpoint()
             .DeleteBasketItemGroupItemEndpoint()
-            .GetBasketItemGroupEndpoint();
+            .GetBasketItemGroupEndpoint()
+            .ApplyDiscountCouponGroupItemEndpoint()
+            .RemoveDiscountCouponGroupItemEndpoint();
     }
 }

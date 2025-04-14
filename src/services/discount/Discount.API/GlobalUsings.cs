@@ -1,0 +1,9 @@
+global using MediatR;
+global using AutoMapper;
+global using Microsoft.EntityFrameworkCore;
+global using Shared;
+global using Shared.Extensions;
+global using Shared.Filters;
+global using System.Net;
+global using MassTransit;
+global using FluentValidation;
