@@ -46,6 +46,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Application", "src\se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Persistence", "src\services\order\Infrastructure\Order.Persistence\Order.Persistence.csproj", "{3033373D-0F30-49DB-BEAC-72F9088B8999}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gateways", "gateways", "{79ACF0E0-DCCB-4EC8-8C42-46A4D5885D25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "src\gateways\Gateway\Gateway.csproj", "{C0C26E13-5521-4BB9-990A-0DCF97B3A13F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +75,8 @@ Global
 		{92ACEFCC-6E22-4811-BC14-1F070B06C2C9} = {BEB523A2-C5E5-429D-A3DE-E2FE1D8F239A}
 		{CB99F6D4-56F3-4C93-8488-3BC1B7D53C4C} = {BEB523A2-C5E5-429D-A3DE-E2FE1D8F239A}
 		{3033373D-0F30-49DB-BEAC-72F9088B8999} = {E17847A3-DDFB-4B89-9444-344CA7D39751}
+		{79ACF0E0-DCCB-4EC8-8C42-46A4D5885D25} = {981582F2-47EE-441A-AA28-174C3AF3A93B}
+		{C0C26E13-5521-4BB9-990A-0DCF97B3A13F} = {79ACF0E0-DCCB-4EC8-8C42-46A4D5885D25}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6486446E-864B-4DB4-883B-CA935EC27451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -109,5 +115,9 @@ Global
 		{3033373D-0F30-49DB-BEAC-72F9088B8999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3033373D-0F30-49DB-BEAC-72F9088B8999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3033373D-0F30-49DB-BEAC-72F9088B8999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C26E13-5521-4BB9-990A-0DCF97B3A13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C26E13-5521-4BB9-990A-0DCF97B3A13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C26E13-5521-4BB9-990A-0DCF97B3A13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C26E13-5521-4BB9-990A-0DCF97B3A13F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

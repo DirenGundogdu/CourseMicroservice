@@ -1,0 +1,14 @@
+@baseAddress = http://localhost:5025
+
+GET {{baseAddress}}/api/categories
+Accept: application/json
+###
+
+POST {{baseAddress}}/api/categories
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "string"
+}
+###

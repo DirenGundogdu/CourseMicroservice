@@ -1,0 +1,44 @@
+{
+  "Routes": [
+    {
+      "UpstreamHttpMethod": ["Get", "Post", "Put", "Delete"],
+      "UpstreamPathTemplate": "/services/catalog/{everything}",
+      "UpstreamScheme": "http",
+      "DownstreamPathTemplate": "/api/v1/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5025 }
+      ]
+    },
+    {
+      "UpstreamHttpMethod": ["Get", "Post", "Put", "Delete"],
+      "UpstreamPathTemplate": "/services/order/{everything}",
+      "UpstreamScheme": "http",
+      "DownstreamPathTemplate": "/api/v1/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5253 }
+      ]
+    },
+    {
+      "UpstreamHttpMethod": ["Get", "Post", "Put", "Delete"],
+      "UpstreamPathTemplate": "/services/file/{everything}",
+      "UpstreamScheme": "http",
+      "DownstreamPathTemplate": "/api/v1/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5128 }
+      ]
+    },
+    {
+      "UpstreamHttpMethod": ["Get", "Post", "Put", "Delete"],
+      "UpstreamPathTemplate": "/services/discount/{everything}",
+      "UpstreamScheme": "http",
+      "DownstreamPathTemplate": "/api/v1/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        { "Host": "localhost", "Port": 5001 }
+      ]
+    }
+  ]
+}

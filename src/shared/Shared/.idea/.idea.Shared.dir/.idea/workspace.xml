@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ec3c40a-32c6-4962-9214-f5c3034475e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CourseMicroservice.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../services/catalog/Catalog.API/Features/Categories/Category.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../services/catalog/Catalog.API/Features/Courses/Course.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../services/catalog/Catalog.API/Features/Courses/Feature.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../services/catalog/Catalog.API/Options/MongoOption.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../services/catalog/Catalog.API/Options/OptionExt.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../services/catalog/Catalog.API/Repositories/AppDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../services/catalog/Catalog.API/Repositories/BaseEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../services/catalog/Catalog.API/Repositories/CategoryEntityConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../services/catalog/Catalog.API/Repositories/CourseEntityConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../services/catalog/Catalog.API/Repositories/RepositoryExt.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceResult.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2tWvrqu2nQ4kNUB2CCfjud2L1AH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ec3c40a-32c6-4962-9214-f5c3034475e5" name="Changes" comment="" />
+      <created>1740480846502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740480846502</updated>
+      <workItem from="1740480847546" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
